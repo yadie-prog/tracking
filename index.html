@@ -31,11 +31,11 @@
           <i class="fa fa-user-shield text-white text-3xl"></i>
         </div>
         <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tight">Sesi TERKUNCI</h2>
-        <p class="text-slate-500 text-sm">Silahkan login untuk melanjutkan</p>
+        <p class="text-slate-500 text-sm">Silahkan login terlebih dahulu untuk melanjutkan</p>
       </div>
       
       <div class="text-left mb-4">
-        <label class="text-[10px] font-bold text-slate-400 uppercase ml-2">Username / Nama PIC</label>
+        <label class="text-[10px] font-bold text-slate-400 uppercase ml-2">Nama PIC</label>
         <input type="text" id="login-pic-name" placeholder="NAMA ANDA..." class="w-full p-4 border-2 rounded-xl text-center font-bold uppercase outline-none focus:border-blue-500">
       </div>
 
@@ -80,7 +80,7 @@
       <div class="flex items-center justify-between">
         <div>
           <h3 class="text-slate-500 text-[10px] font-black uppercase tracking-widest">Dashboard</h3>
-          <h2 class="text-xl font-black text-slate-800 uppercase">Unit Baru Masuk</h2>
+          <h2 class="text-xl font-black text-slate-800 uppercase">Unit Masuk</h2>
         </div>
         <div class="bg-blue-100 p-3 rounded-2xl">
           <i class="fa fa-truck-ramp-box text-blue-600 text-xl"></i>
@@ -90,7 +90,7 @@
         <span id="total-new-units" class="text-5xl font-black text-blue-600">0</span>
         <span class="text-slate-400 font-bold ml-2 text-sm tracking-tighter">UNIT TOTAL</span>
       </div>
-      <p class="text-[9px] text-slate-400 mt-2 font-bold uppercase italic">* Klik kartu untuk rincian plat nomor</p>
+      <p class="text-[9px] text-slate-400 mt-2 font-bold uppercase italic">* Klik untuk rincian unit.</p>
     </div>
   </div>	  
 		  
@@ -103,16 +103,16 @@
       <div class="flex items-center gap-2 justify-center md:justify-start">
         <a class="text-blue-400 font-extrabold hover:text-blue-300 transition-colors tracking-tighter text-lg">DAC Project</a>
         <span class="h-4 w-[1px] bg-slate-800"></span>
-        <span class="text-[10px] font-bold text-slate-600 bg-slate-900 px-2 py-0.5 rounded">v1.85 SECURE</span>
+        <span class="text-[10px] font-bold text-slate-600 bg-slate-900 px-2 py-0.5 rounded">v1.85</span>
       </div>
     </div>
     <div class="order-3 md:order-2 text-center">
-      <p class="text-[10px] text-slate-700 font-bold uppercase tracking-widest">&copy; 2026 DAC MEDIA PROJECT. <i class="fa-solid fa-circle-info text-white text-[10px]">ALL RIGHTS RESERVED.</i></p>
+      <p class="text-[10px] text-slate-700 font-bold uppercase tracking-widest">&copy; 2026 | DAC MEDIA PROJECT. <i class="fa-solid fa-circle-info text-white text-[10px]">ALL RIGHTS RESERVED.</i></p>
     </div>
     <div class="order-2 md:order-3 flex gap-4">
       <button onclick="showDevInfo()" class="hover:text-white text-slate-400 transition-colors text-[10px] uppercase font-bold">Tentang Pengembang</button>
       <button onclick="showUserManual()" class="group flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 transition-all shadow-lg shadow-blue-900/20">
-        <span class="text-[10px] font-black text-white uppercase tracking-tighter">Petunjuk</span>
+        <span class="text-[10px] font-black text-white uppercase tracking-tighter">Petunjuk Pengguna</span>
       </button>
     </div>
   </div>
@@ -508,3 +508,4 @@ setInterval(updateNewUnitsSummary, 60000);
 </body>
 
 </html>
+
