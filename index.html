@@ -389,16 +389,16 @@ Swal.fire({
 
         <div class="bg-slate-900/50 p-3 rounded-xl border border-slate-800">
           <h4 class="text-emerald-400 font-black uppercase mb-1 tracking-tighter flex items-center gap-2">
-            <i class="fa-solid fa-plus"></i> 2. Input Pergerakan Baru
+            <i class="fa-solid fa-plus"></i> 2. Summary Card
           </h4>
-          <p class="text-slate-400 font-medium">Gunakan tombol <b>INPUT</b> untuk mendaftarkan perpindahan unit. Pastikan mengisi <b class="text-white">Parking & Lot</b> dengan benar karena akan digabungkan otomatis sebagai lokasi penyimpanan.</p>
+          <p class="text-slate-400 font-medium">Summary Card Berfungsi untuk melihat total unit di setiap workstation, dan detail unit beserta plat nomor dapat di lihat pada summary card. Ini memungkinkan setiap user dapat melihat kegiatan dan status unit tersebut, sehingga membuat semua data menjadi transparan.</p>
         </div>
 
         <div class="bg-slate-900/50 p-3 rounded-xl border border-slate-800">
           <h4 class="text-purple-400 font-black uppercase mb-1 tracking-tighter flex items-center gap-2">
             <i class="fa-solid fa-sync"></i> 3. Real-Time Summary
           </h4>
-          <p class="text-slate-400 font-medium">Dashboard summary di atas akan terupdate otomatis setiap <b>5 detik</b> (Live Sync). Angka mencerminkan jumlah unit yang sedang berada di tiap workstation.</p>
+          <p class="text-slate-400 font-medium">Dashboard summary di atas akan terupdate otomatis setiap <b>10 detik</b> (Live Sync). Angka mencerminkan jumlah unit yang sedang berada di tiap workstation.</p>
         </div>
 
         <div class="bg-slate-900/50 p-3 rounded-xl border border-slate-800">
@@ -407,21 +407,6 @@ Swal.fire({
           </h4>
           <p class="text-slate-400 font-medium">Seluruh riwayat data tersimpan di <b>spreadsheet</b>. Anda dapat meninjau log lengkap melalui tombol database di sisi kanan kolom pencarian atau footer.</p>
         </div>
-
-        <div class="bg-slate-900/50 p-3 rounded-xl border border-slate-800">
-          <h4 class="text-amber-400 font-black uppercase mb-1 tracking-tighter flex items-center gap-2">
-            <i class="fa-solid fa-database"></i> 5. Analistik Data
-          </h4>
-          <p class="text-slate-400 font-medium">Melihat secara Visualisasi mengenai jumlah unit yang berada di setiap workstation (stasiun kerja) dan proporsinya terhadap total keseluruhan dalam bentuk grafik analistik.</p>
-        </div>
-
-        <div class="bg-slate-900/50 p-3 rounded-xl border border-slate-800">
-          <h4 class="text-amber-400 font-black uppercase mb-1 tracking-tighter flex items-center gap-2">
-            <i class="fa-solid fa-database"></i> 6. Daily Analitics
-          </h4>
-          <p class="text-slate-400 font-medium">Melihat secara Visualisasi mengenai jumlah pergerakan unit setiap harinya. dan riwayat pergerakan unit pada hari yang sama.</p>
-        </div>
-
       </div>
     `
   });}
@@ -521,4 +506,5 @@ setInterval(updateNewUnitsSummary, 60000);
 	
 </script>
 </body>
+
 </html>
